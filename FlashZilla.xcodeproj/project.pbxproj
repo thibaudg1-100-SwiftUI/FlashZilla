@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C69BA5428046B3C00213988 /* EditCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C69BA5328046B3C00213988 /* EditCardsView.swift */; };
+		6C81FB8B28001555005DC84B /* TimerOnReceiveCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C81FB8A28001555005DC84B /* TimerOnReceiveCombine.swift */; };
+		6C81FB8D28001B87005DC84B /* BackgroundScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C81FB8C28001B87005DC84B /* BackgroundScene.swift */; };
+		6C81FB8F2800209D005DC84B /* AccessibilityColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C81FB8E2800209C005DC84B /* AccessibilityColor.swift */; };
+		6C81FB912800234D005DC84B /* AccessibilityReduceMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C81FB902800234D005DC84B /* AccessibilityReduceMotion.swift */; };
+		6C81FB9328002614005DC84B /* AccessibilityTransparency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C81FB9228002614005DC84B /* AccessibilityTransparency.swift */; };
+		6C81FB9528002DB1005DC84B /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C81FB9428002DB1005DC84B /* Card.swift */; };
+		6C81FB9728002EB1005DC84B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C81FB9628002EB1005DC84B /* CardView.swift */; };
+		6C8817E727FEF5C3001520B7 /* FlashZillaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8817E627FEF5C3001520B7 /* FlashZillaApp.swift */; };
+		6C8817E927FEF5C3001520B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8817E827FEF5C3001520B7 /* ContentView.swift */; };
+		6C8817EB27FEF5C4001520B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C8817EA27FEF5C4001520B7 /* Assets.xcassets */; };
+		6C8817EE27FEF5C4001520B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C8817ED27FEF5C4001520B7 /* Preview Assets.xcassets */; };
+		6C8817F627FEF623001520B7 /* Tap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8817F527FEF623001520B7 /* Tap.swift */; };
+		6C8817F827FEF9F7001520B7 /* LongPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8817F727FEF9F7001520B7 /* LongPress.swift */; };
+		6C8817FA27FEFC1C001520B7 /* GenericGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8817F927FEFC1C001520B7 /* GenericGesture.swift */; };
+		6C8817FC27FEFDD0001520B7 /* RotaGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8817FB27FEFDD0001520B7 /* RotaGesture.swift */; };
+		6C8817FE27FEFE33001520B7 /* GesturesClash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8817FD27FEFE33001520B7 /* GesturesClash.swift */; };
+		6C88180027FEFEA1001520B7 /* GesturePriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8817FF27FEFEA1001520B7 /* GesturePriority.swift */; };
+		6C88180227FEFF9A001520B7 /* ParallelGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C88180127FEFF9A001520B7 /* ParallelGesture.swift */; };
+		6C88180427FF0073001520B7 /* GestureSequencing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C88180327FF0073001520B7 /* GestureSequencing.swift */; };
+		6C88180627FF0708001520B7 /* SimpleHaptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C88180527FF0708001520B7 /* SimpleHaptics.swift */; };
+		6C88180827FF0795001520B7 /* ComplexHaptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C88180727FF0795001520B7 /* ComplexHaptics.swift */; };
+		6C88180A27FF0B2E001520B7 /* TappableArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C88180927FF0B2E001520B7 /* TappableArea.swift */; };
+		6C88180C27FF0CA9001520B7 /* TappableShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C88180B27FF0CA9001520B7 /* TappableShape.swift */; };
+		6C88180E27FF0D48001520B7 /* SpacerTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C88180D27FF0D48001520B7 /* SpacerTap.swift */; };
+		6CA86F232805742300AC23D7 /* EditCardsView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA86F222805742300AC23D7 /* EditCardsView2.swift */; };
+		6CA86F2528057BBC00AC23D7 /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA86F2428057BBC00AC23D7 /* FileManager-DocumentsDirectory.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C69BA5328046B3C00213988 /* EditCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCardsView.swift; sourceTree = "<group>"; };
+		6C81FB8A28001555005DC84B /* TimerOnReceiveCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerOnReceiveCombine.swift; sourceTree = "<group>"; };
+		6C81FB8C28001B87005DC84B /* BackgroundScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundScene.swift; sourceTree = "<group>"; };
+		6C81FB8E2800209C005DC84B /* AccessibilityColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityColor.swift; sourceTree = "<group>"; };
+		6C81FB902800234D005DC84B /* AccessibilityReduceMotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityReduceMotion.swift; sourceTree = "<group>"; };
+		6C81FB9228002614005DC84B /* AccessibilityTransparency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityTransparency.swift; sourceTree = "<group>"; };
+		6C81FB9428002DB1005DC84B /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		6C81FB9628002EB1005DC84B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		6C8817E327FEF5C3001520B7 /* FlashZilla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashZilla.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C8817E627FEF5C3001520B7 /* FlashZillaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashZillaApp.swift; sourceTree = "<group>"; };
+		6C8817E827FEF5C3001520B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6C8817EA27FEF5C4001520B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C8817ED27FEF5C4001520B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6C8817F527FEF623001520B7 /* Tap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tap.swift; sourceTree = "<group>"; };
+		6C8817F727FEF9F7001520B7 /* LongPress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPress.swift; sourceTree = "<group>"; };
+		6C8817F927FEFC1C001520B7 /* GenericGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericGesture.swift; sourceTree = "<group>"; };
+		6C8817FB27FEFDD0001520B7 /* RotaGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotaGesture.swift; sourceTree = "<group>"; };
+		6C8817FD27FEFE33001520B7 /* GesturesClash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesClash.swift; sourceTree = "<group>"; };
+		6C8817FF27FEFEA1001520B7 /* GesturePriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturePriority.swift; sourceTree = "<group>"; };
+		6C88180127FEFF9A001520B7 /* ParallelGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallelGesture.swift; sourceTree = "<group>"; };
+		6C88180327FF0073001520B7 /* GestureSequencing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureSequencing.swift; sourceTree = "<group>"; };
+		6C88180527FF0708001520B7 /* SimpleHaptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleHaptics.swift; sourceTree = "<group>"; };
+		6C88180727FF0795001520B7 /* ComplexHaptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexHaptics.swift; sourceTree = "<group>"; };
+		6C88180927FF0B2E001520B7 /* TappableArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappableArea.swift; sourceTree = "<group>"; };
+		6C88180B27FF0CA9001520B7 /* TappableShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappableShape.swift; sourceTree = "<group>"; };
+		6C88180D27FF0D48001520B7 /* SpacerTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerTap.swift; sourceTree = "<group>"; };
+		6CA86F222805742300AC23D7 /* EditCardsView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCardsView2.swift; sourceTree = "<group>"; };
+		6CA86F2428057BBC00AC23D7 /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C8817E027FEF5C3001520B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C8817DA27FEF5C3001520B7 = {
+			isa = PBXGroup;
+			children = (
+				6C8817E527FEF5C3001520B7 /* FlashZilla */,
+				6C8817E427FEF5C3001520B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C8817E427FEF5C3001520B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C8817E327FEF5C3001520B7 /* FlashZilla.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C8817E527FEF5C3001520B7 /* FlashZilla */ = {
+			isa = PBXGroup;
+			children = (
+				6C8817E627FEF5C3001520B7 /* FlashZillaApp.swift */,
+				6C8817E827FEF5C3001520B7 /* ContentView.swift */,
+				6C81FB9628002EB1005DC84B /* CardView.swift */,
+				6C69BA5328046B3C00213988 /* EditCardsView.swift */,
+				6CA86F222805742300AC23D7 /* EditCardsView2.swift */,
+				6C81FB9428002DB1005DC84B /* Card.swift */,
+				6CA86F2428057BBC00AC23D7 /* FileManager-DocumentsDirectory.swift */,
+				6C8817F427FEF5D0001520B7 /* Learning */,
+				6C8817EA27FEF5C4001520B7 /* Assets.xcassets */,
+				6C8817EC27FEF5C4001520B7 /* Preview Content */,
+			);
+			path = FlashZilla;
+			sourceTree = "<group>";
+		};
+		6C8817EC27FEF5C4001520B7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6C8817ED27FEF5C4001520B7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6C8817F427FEF5D0001520B7 /* Learning */ = {
+			isa = PBXGroup;
+			children = (
+				6C8817F527FEF623001520B7 /* Tap.swift */,
+				6C8817F727FEF9F7001520B7 /* LongPress.swift */,
+				6C8817F927FEFC1C001520B7 /* GenericGesture.swift */,
+				6C8817FB27FEFDD0001520B7 /* RotaGesture.swift */,
+				6C8817FD27FEFE33001520B7 /* GesturesClash.swift */,
+				6C8817FF27FEFEA1001520B7 /* GesturePriority.swift */,
+				6C88180127FEFF9A001520B7 /* ParallelGesture.swift */,
+				6C88180327FF0073001520B7 /* GestureSequencing.swift */,
+				6C88180527FF0708001520B7 /* SimpleHaptics.swift */,
+				6C88180727FF0795001520B7 /* ComplexHaptics.swift */,
+				6C88180927FF0B2E001520B7 /* TappableArea.swift */,
+				6C88180B27FF0CA9001520B7 /* TappableShape.swift */,
+				6C88180D27FF0D48001520B7 /* SpacerTap.swift */,
+				6C81FB8A28001555005DC84B /* TimerOnReceiveCombine.swift */,
+				6C81FB8C28001B87005DC84B /* BackgroundScene.swift */,
+				6C81FB8E2800209C005DC84B /* AccessibilityColor.swift */,
+				6C81FB902800234D005DC84B /* AccessibilityReduceMotion.swift */,
+				6C81FB9228002614005DC84B /* AccessibilityTransparency.swift */,
+			);
+			path = Learning;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C8817E227FEF5C3001520B7 /* FlashZilla */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C8817F127FEF5C4001520B7 /* Build configuration list for PBXNativeTarget "FlashZilla" */;
+			buildPhases = (
+				6C8817DF27FEF5C3001520B7 /* Sources */,
+				6C8817E027FEF5C3001520B7 /* Frameworks */,
+				6C8817E127FEF5C3001520B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlashZilla;
+			productName = FlashZilla;
+			productReference = 6C8817E327FEF5C3001520B7 /* FlashZilla.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C8817DB27FEF5C3001520B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					6C8817E227FEF5C3001520B7 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 6C8817DE27FEF5C3001520B7 /* Build configuration list for PBXProject "FlashZilla" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C8817DA27FEF5C3001520B7;
+			productRefGroup = 6C8817E427FEF5C3001520B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C8817E227FEF5C3001520B7 /* FlashZilla */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C8817E127FEF5C3001520B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C8817EE27FEF5C4001520B7 /* Preview Assets.xcassets in Resources */,
+				6C8817EB27FEF5C4001520B7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C8817DF27FEF5C3001520B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C88180C27FF0CA9001520B7 /* TappableShape.swift in Sources */,
+				6C8817F627FEF623001520B7 /* Tap.swift in Sources */,
+				6C69BA5428046B3C00213988 /* EditCardsView.swift in Sources */,
+				6C81FB8F2800209D005DC84B /* AccessibilityColor.swift in Sources */,
+				6C88180027FEFEA1001520B7 /* GesturePriority.swift in Sources */,
+				6C81FB8D28001B87005DC84B /* BackgroundScene.swift in Sources */,
+				6C81FB912800234D005DC84B /* AccessibilityReduceMotion.swift in Sources */,
+				6C88180227FEFF9A001520B7 /* ParallelGesture.swift in Sources */,
+				6C81FB8B28001555005DC84B /* TimerOnReceiveCombine.swift in Sources */,
+				6C8817FC27FEFDD0001520B7 /* RotaGesture.swift in Sources */,
+				6C8817E927FEF5C3001520B7 /* ContentView.swift in Sources */,
+				6C8817E727FEF5C3001520B7 /* FlashZillaApp.swift in Sources */,
+				6C88180A27FF0B2E001520B7 /* TappableArea.swift in Sources */,
+				6C88180627FF0708001520B7 /* SimpleHaptics.swift in Sources */,
+				6C8817FA27FEFC1C001520B7 /* GenericGesture.swift in Sources */,
+				6CA86F232805742300AC23D7 /* EditCardsView2.swift in Sources */,
+				6CA86F2528057BBC00AC23D7 /* FileManager-DocumentsDirectory.swift in Sources */,
+				6C88180427FF0073001520B7 /* GestureSequencing.swift in Sources */,
+				6C8817F827FEF9F7001520B7 /* LongPress.swift in Sources */,
+				6C81FB9528002DB1005DC84B /* Card.swift in Sources */,
+				6C81FB9328002614005DC84B /* AccessibilityTransparency.swift in Sources */,
+				6C8817FE27FEFE33001520B7 /* GesturesClash.swift in Sources */,
+				6C88180827FF0795001520B7 /* ComplexHaptics.swift in Sources */,
+				6C81FB9728002EB1005DC84B /* CardView.swift in Sources */,
+				6C88180E27FF0D48001520B7 /* SpacerTap.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6C8817EF27FEF5C4001520B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C8817F027FEF5C4001520B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C8817F227FEF5C4001520B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlashZilla/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thi.FlashZilla;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C8817F327FEF5C4001520B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlashZilla/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thi.FlashZilla;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C8817DE27FEF5C3001520B7 /* Build configuration list for PBXProject "FlashZilla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C8817EF27FEF5C4001520B7 /* Debug */,
+				6C8817F027FEF5C4001520B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C8817F127FEF5C4001520B7 /* Build configuration list for PBXNativeTarget "FlashZilla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C8817F227FEF5C4001520B7 /* Debug */,
+				6C8817F327FEF5C4001520B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C8817DB27FEF5C3001520B7 /* Project object */;
+}
